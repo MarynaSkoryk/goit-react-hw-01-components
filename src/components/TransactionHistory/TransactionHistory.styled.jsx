@@ -14,7 +14,7 @@ export const Thead = styled.thead`
 `;
 
 export const Tr = styled.tr`
-:nth-child(2n) {
+&:nth-child(2n) {
   background-color: #ecf1f3;`;
 
 export const Td = styled.td`

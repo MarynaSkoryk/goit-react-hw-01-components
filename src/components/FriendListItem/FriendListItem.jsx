@@ -9,7 +9,7 @@ import {
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <Friend>
-      <Status></Status>
+      <Status>{isOnline}</Status>
       <AvatarImage src={avatar} alt="User avatar" width="48" />
       <Name>{name}</Name>
     </Friend>
